@@ -1,0 +1,94 @@
+﻿<!Doctype>
+<html>
+<head>
+<title> Грузчики недорого. Санкт-Петербург. В любом районе С-Пб. </title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"  type="text/javascript"></script>
+<style>
+header {
+width: 1000px;
+margin: auto;
+padding-bottom: 50px;
+}
+h1 {
+margin-top: 30px;
+font-family: Blackoak Std;
+font-size: 40pt;
+}
+
+b {
+color: red;
+}
+
+.menu {
+margin-left: 50px;
+font-size: 28pt;
+font-family: KaiTi;
+}
+
+.phone {
+font-size: 22pt;
+font-family: a_AlgeriusCaps;
+width: 350px;
+margin: auto;
+}
+
+.phone strong {
+margin-left: 15px;
+}
+
+p {
+background: #D7AA11;
+color: #ede;
+padding: 10px;
+cursor: pointer;
+}
+
+.phone-ico {
+width: 20px;
+height: 20px;
+margin-left: 50px;
+}
+
+span {
+font-family: Petersburg;
+font-size: 18pt;
+margin-top: 15px;
+}
+</style>
+
+<script>
+$(function(){
+$('.order').click(function(){
+$('span').detach();
+$('br:not(br:lt(2))').detach();
+$("<span>Просто позвоните нам по указанному выше номеру. Вы сможете оформить заказ или получить консультацию.</span>").insertAfter($("p:eq(1)"));
+});
+
+$('.price').click(function(){
+$('span').detach();
+$('br:not(br:lt(2))').detach();
+$("<span>Стоимость услуг: 400 руб/ч.<br/>Минимальная оплата: 1200 рублей, 3 часа.<br/>Также Вы можете получить СКИДКУ 15% до конца месяца, став нашим подписчиком!</span>").insertAfter($("p:eq(0)"));
+});
+
+$('.service').click(function(){
+$('span').detach();
+$('br:not(br:lt(2))').detach();
+$("<span>Мы оказываем услуги погрузо-разгрузочных работ в Санкт-Петербурге по удобным ценам.</span><br> <span> Нашим преимуществом является отличное знание города и подбор адекватных толковых подрядчиков. </span> <br><span> С нами работают  как опытные грузчики, так и ответственные студенты. </span> <br><span> Мы существуем уже шесть лет и, продвигая услуги в интернете, для нас важно внимательно следить за своей репутацией, поэтому к каждому заказу мы подходим серьезно. </span> <br><span> Мы уверены в своих возможностях предоставить клиенту вежливый сервис  и аккуратное обращение с грузом.  </span> <br><br><span> Приятного сотрудничества! </span> ").insertAfter($("p:eq(2)"));
+});
+
+});
+</script>
+</head>
+<body><header align="center"><h1>SO<b>b</b>ER HANDS<br>Ответственный труд</h1><hr><h2="service">Услуги грузчиков в Санкт-Петербурге. Всегда трезвые работники. Приятная ценовая политика. Выполнение заказов любой сложности. <br>Шесть лет опыта в сфере грузовых работ. </h2></header>
+<div class="phone"><img class='phone-ico' src='http://soberhands.spb.ru/mobile/phone.png'><strong>+7 (981) 172 15 54</strong></div>
+<nav class="menu">
+<article  class='price'><p align='center'>Цены
+</p></article>
+<article class='order'><p align='center'>Заказать
+</p></article>
+<article class='service'><p align='center'>Услуги
+</p></article>
+</nav>
+
+</body>
+</html>
